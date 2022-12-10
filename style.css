@@ -23,6 +23,7 @@ body {
     margin: 20px auto;
     border-radius: 1rem;
     background-image: url(./images/laptop.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0 0 10px black;

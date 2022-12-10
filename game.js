@@ -85,7 +85,7 @@ function SHUffle_caRDS() {
         card.classList.remove("flip");
         let imgTag = card.querySelector(".back-view img");
         setTimeout(() => {
-            imgTag.src = `images/${aRrAY__[index]}.jpg`;
+            imgTag.src = `images/animal${aRrAY__[index]}.jpg`;
         }, 500);
         card.addEventListener("click", flio_carrrds);
     });

@@ -23,7 +23,7 @@
             background: #6563ff;
         }
         
-        .wrapper {
+        .wrap{
             padding: 25px;
             background: #f8f8f8;
             border-radius: 10px;
@@ -101,7 +101,8 @@
         }
         
         .card .back-view img {
-            max-width: 40px;
+            width: 140px;
+            height: 140px;
         }
         
         .card.flip .front-view {
