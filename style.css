@@ -1,0 +1,81 @@
+* {
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2696e0;
+   
+   
+    background: linear-gradient(to right, #d5d5d5, rgb(168, 117, 7));
+
+
+    background: -webkit-linear-gradient(to right, #4a6d8f, rgb(233, 169, 32));
+}
+
+#hd {
+    width: 74%;
+    height: 55vh;
+    margin: 20px auto;
+    border-radius: 1rem;
+    background-image: url(./images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px black;
+    padding-top: 3rem;
+}
+
+#hd div {
+    width: 70%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.849);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 8.5px);
+    -webkit-backdrop-filter: blur( 8.5px);
+    border-radius: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    padding: .6rem;
+    border-radius: 1rem;
+}
+
+#hd div p {
+    text-align: center;
+    color: rgb(236, 236, 236);
+    font-size: 3.5rem;
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+.scroll-box {
+ 
+    float: left;
+    padding: 1rem;
+    overflow-y: auto;
+    height: 510px;
+}
+
+img {
+    padding: 16px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.mb-4 {
+    margin-top: 26px;
+}
+
+#next {
+    font-size: 25px;
+    color: black;
+}
